@@ -6,6 +6,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "npx nodemon src/index.js",
+		"mongo:start": "mongod --dbpath ~/.mongo", 
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
